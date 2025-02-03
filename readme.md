@@ -5,7 +5,8 @@
 - La librerías usadas fueron: __pandas__, __requests__ y __numpy__
 
 ### Guía de uso
-- Para acceder a los datos de un serie estadística, se tiene que pegar el __código de la serie__ en la línea 5 del archivo .py: `codigo_serie= 'PM04986AA'`. 
+- Para acceder a los datos de un serie estadística, se tiene que pegar el __código de la serie__ en la línea 5 del archivo .py: `codigo_serie= 'PM04986AA'`.
+
 ![alt text](image.png)
 
 - __Obtener el código de un serie__:
