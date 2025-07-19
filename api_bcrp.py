@@ -2,55 +2,35 @@ import pandas as pd
 import requests
 import numpy as np
 
-url_base = 'https://estadisticas.bcrp.gob.pe/estadisticas/series/api/'
-separador = '/'
-codigo_serie = 'PM04986AA-PM04989AA-PM04990AA'
-formato_salida = 'json'
-periodo_inicial = '2010' 
-periodo_final = '2024'
-url = f"{url_base}{codigo_serie}/{formato_salida}/{periodo_inicial}/{periodo_final}"
+def obtener_dataframe_bcrp(codigo_serie, periodo_inicial, periodo_final):
+    url_base = 'https://estadisticas.bcrp.gob.pe/estadisticas/series/api/'
+    formato_salida = 'json'
+    url = f"{url_base}{codigo_serie}/{formato_salida}/{periodo_inicial}/{periodo_final}"
 
-response = requests.get(url)
-if response.status_code == 200:
-    try:
-        consulta = response.json()
-    except ValueError:
-        print('Error: La consulta no devolvió un JSON')
-        consulta = None
-else:
-    print('Error en la consulta')
-    consulta = None
+    response = requests.get(url)
+    if response.status_code == 200:
+        try:
+            consulta = response.json()
+        except ValueError:
+            raise Exception('Error: La consulta no devolvió un JSON')
+    else:
+        raise Exception('Error en la consulta')
 
-#Nombres de las series
-columns = consulta.get('config').get('series')
-nombres_columnas = []
-for i in columns:
-    valor = i.get('name')
-    nombres_columnas.append(valor)
+    columns = consulta.get('config', {}).get('series', [])
+    nombres_columnas = [i.get('name') for i in columns]
 
+    datos = consulta.get('periods', [])
+    periodo = [i.get('name') for i in datos]
+    valores = [i.get('values') for i in datos]
 
-#Periodos y valores
-datos = consulta.get('periods')
-#Periodos:
-periodo = []
-for i in datos:
-    periodo.append(i.get('name'))
-
-#Valores:
-valores = []
-for i in datos:
-    valor = i['values']
-    valores.append(valor)
-
-
-#Creación del dataframe
-dataset = {'Periodo': periodo, 'series': valores}
-df = pd.DataFrame(dataset)
-df[nombres_columnas] = df['series'].to_list()
-df.drop(columns=['series'], inplace=True)
-df.replace('n.d.', np.nan, inplace=True)
-
-#Convertir columnas a tipo numérico
-columns_to_float = df.columns[1:]
-df[columns_to_float] = df[columns_to_float].astype(float)
-print(df)
+    dataset = {'Periodo': periodo, 'series': valores}
+    df = pd.DataFrame(dataset)
+    if nombres_columnas:
+        df[nombres_columnas] = df['series'].to_list()
+        df.drop(columns=['series'], inplace=True)
+        df.replace('n.d.', np.nan, inplace=True)
+        columns_to_float = df.columns[1:]
+        df[columns_to_float] = df[columns_to_float].astype(float)
+        return df
+    else:
+        raise Exception("No se encontraron nombres de columnas en la respuesta.")
