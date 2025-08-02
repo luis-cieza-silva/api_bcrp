@@ -1,31 +1,77 @@
 # API BCRP
-### Descripción
-- Este es un proyecto que permite acceder a información de las series estadísticas del __Banco Central de Reserva del Perú__ a través de la __API__ que ha dispuesto la misma entidad en favor del público en general. 
-- El proyecto fue desarrollado completamente en el lenguaje de __python__. 
-- Las librerías usadas fueron: __pandas__, __requests__ y __numpy__
 
-### Guía de uso
-- Para acceder a los datos de una serie estadística, se tiene que pegar el __código de la serie__ en la línea 5 del archivo .py: `codigo_serie= 'PM04986AA'`.
+## Descripción
 
-![Vista del código](images/view.png)
+Este proyecto permite acceder y visualizar información de las series estadísticas del **Banco Central de Reserva del Perú (BCRP)** a través de la API pública de la entidad. Incluye una aplicación web interactiva desarrollada con **Streamlit** para consultar, visualizar y graficar series estadísticas de manera sencilla.
 
-- __Obtener el código de una serie__:
+## Características
 
-El código de la serie la pueden encontrar en la propia plataforma del BCRP. Por ejemplo, si quisieramos obtener los datos del __PBI Agropecuario__, solo bastaría con copiar su código: 	`PN01713AM` y pegarlo en la línea de código respectiva. 
+- Consulta de series estadísticas del BCRP por código, categoría y periodicidad.
+- Selección múltiple de series y visualización conjunta.
+- Visualización de metadatos relevantes de cada serie.
+- Gráficos de líneas automáticos para las series seleccionadas.
+- Actualización automática de la metadata desde la web del BCRP.
+- Interfaz web amigable y personalizable.
 
-![Vista de la plataforma BCRP](images/enviroment.png)
+## Instalación
 
-- __Obtener los datos de más de una serie a la vez__:
+1. Clona el repositorio:
+    ```bash
+    git clone https://github.com/luis-cieza-silva/api_bcrp.git
+    cd api_bcrp
+    ```
 
-Para lograr esto solo basta con copiar el código de las series y separarlas por un guión `-`.
-  - 1 serie: `codigo_serie: 'PM04986AA'`
-  - 3 series: `codigo_serie = 'PM04986AA-PM04989AA-PM04990AA'`
+2. Instala las dependencias:
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-### Importante:
+## Uso
 
-- Si se quiere acceder a los datos de más de una serie en simultánea, se recomienda __NO__ combinar series de diferentes periodicidades. 
-- Es decir, si una serie es anual, las demás deberán de ser anuales. Si es mensual, de igual manera, las otras deberán de ser mensuales y así sucesivamente.
-<<<<<<< HEAD
-=======
+1. Ejecuta la aplicación Streamlit:
+    ```bash
+    streamlit run app.py
+    ```
 
->>>>>>> 25191637bd43bdd12bb3a5dea466b8be2d5c0337
+2. En la interfaz web:
+    - Selecciona una categoría y una o más series estadísticas.
+    - Ajusta los parámetros de consulta (códigos, año inicial, año final).
+    - Haz clic en **Crear DataFrame** para ver los datos y el gráfico.
+    - Si es la primera vez, presiona **Actualizar metadata** para descargar la metadata desde la web del BCRP.
+
+## Estructura del Proyecto
+
+```
+api_bcrp/
+│
+├── app.py                  # Aplicación principal Streamlit
+├── api_bcrp.py             # Función para consultar la API del BCRP
+├── metadata.py             # Scraper y gestor de metadata de series
+├── requirements.txt        # Dependencias del proyecto
+├── master_categorias_urls.csv # URLs de categorías para scraping
+├── metadata.csv            # Metadata generada de las series
+├── README.md               # Este archivo
+└── .gitignore              # Archivos y carpetas a ignorar por git
+```
+
+## Ejemplo de Consulta Múltiple
+
+Puedes consultar varias series a la vez ingresando los códigos separados por guiones, por ejemplo:
+```
+PM04986AA-PM04989AA-PM04990AA
+```
+Solo asegúrate de que todas las series sean de la misma categoría y periodicidad.
+
+## Recomendaciones
+
+- No mezcles series de diferentes periodicidades en una misma consulta.
+- Actualiza la metadata periódicamente para mantener la información al día.
+
+## Licencia
+
+Este proyecto se distribuye bajo la licencia MIT.
+
+## Autor
+
+Luis Cieza Silva  
+[GitHub](https://github.com/luis-cieza-silva)
