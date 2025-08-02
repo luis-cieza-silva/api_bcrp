@@ -25,3 +25,7 @@ Para lograr esto solo basta con copiar el código de las series y separarlas por
 
 - Si se quiere acceder a los datos de más de una serie en simultánea, se recomienda __NO__ combinar series de diferentes periodicidades. 
 - Es decir, si una serie es anual, las demás deberán de ser anuales. Si es mensual, de igual manera, las otras deberán de ser mensuales y así sucesivamente.
+<<<<<<< HEAD
+=======
+
+>>>>>>> 25191637bd43bdd12bb3a5dea466b8be2d5c0337
