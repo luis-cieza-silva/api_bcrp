@@ -1,4 +1,4 @@
-codigo,nombre_serie,fecha_inicio,fecha_fin,ultima_actualizacion,categoria,categoria_url,periodicidad
+﻿codigo,nombre_serie,fecha_inicio,fecha_fin,ultima_actualizacion,categoria,categoria_url,periodicidad
 PM06102MA,Reservas Internacionales Netas (millones S/),2001,2024,15-05-2025,Reservas internacionales,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/reservas-internacionales-a,Anual
 PM06103MA,Reservas Internacionales Netas (millones US$),1959,2024,15-05-2025,Reservas internacionales,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/reservas-internacionales-a,Anual
 PM06104MA,Reservas Internacionales Netas - Activos (millones US$),1959,2024,15-05-2025,Reservas internacionales,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/reservas-internacionales-a,Anual
@@ -216,43 +216,43 @@ PM10216FA,Bonos Municipalidad de Lima (% PBI),1999,2024,30-05-2025,Saldo deuda p
 PM10217FA,Corto Plazo (% PBI),1999,2024,30-05-2025,Saldo deuda pública (porcentaje del PBI),https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/saldo-deuda-publica-porcentaje-del-PBI,Anual
 PM10218FA,Créditos Banco de la Nación (% PBI),1999,2024,30-05-2025,Saldo deuda pública (porcentaje del PBI),https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/saldo-deuda-publica-porcentaje-del-PBI,Anual
 PM10219FA,Obligaciones Pendientes de Cobro (Flotante) (% PBI),1999,2024,30-05-2025,Saldo deuda pública (porcentaje del PBI),https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/saldo-deuda-publica-porcentaje-del-PBI,Anual
-PD04746FA,Presupuesto Público 1970 - 2012 - Gasto Corriente,1970,2024,11-06-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/presupuesto-publico,Anual
-PD04747FA,Presupuesto Público 1970 - 2012 - Gasto de Capital,1972,2024,11-06-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/presupuesto-publico,Anual
-PD04748FA,Presupuesto Público 1970 - 2012 - Servicio de la Deuda,1974,2024,11-06-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/presupuesto-publico,Anual
-PD04749FA,Presupuesto Público 1970 - 2012 - Total,1970,2024,11-06-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/presupuesto-publico,Anual
-PN02499AQ,Agropecuario,T1-1981,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02500AQ,Pesca,T1-1981,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02501AQ,Minería e Hidrocarburos,T1-1981,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02502AQ,Manufactura,T1-1981,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02503AQ,Electricidad y Agua,T1-1981,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02504AQ,Construcción,T1-1981,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02505AQ,Comercio,T1-1981,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02506AQ,Servicios,T1-1981,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02507AQ,PBI Global,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN37680AQ,Sectores primarios,T1-1995,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN37681AQ,Sectores no primarios,T1-1995,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
-PN02508AQ,Agropecuario,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN02509AQ,Pesca,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN02510AQ,Minería e Hidrocarburos,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN02511AQ,Manufactura,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN02512AQ,Electricidad y Agua,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN02513AQ,Construcción,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN02514AQ,Comercio,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN02515AQ,Servicios,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN02516AQ,PBI Global,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN37682AQ,Sectores primarios,T1-1994,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN37683AQ,Sectores no primarios,T1-1994,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
-PN37684AQ,Agropecuario,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37685AQ,Pesca,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37686AQ,Minería e Hidrocarburos,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37687AQ,Manufactura,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37688AQ,Electricidad y Agua,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37689AQ,Construcción,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37690AQ,Comercio,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37691AQ,Servicios,T1-1980,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37692AQ,PBI Global,T1-1979,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37693AQ,Sectores primarios,T1-1994,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
-PN37694AQ,Sectores no primarios,T1-1994,T1-2025,18-07-2025,,https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PD04746FA,Presupuesto Público 1970 - 2012 - Gasto Corriente,1970,2024,11-06-2025,Presupuesto público,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/presupuesto-publico,Anual
+PD04747FA,Presupuesto Público 1970 - 2012 - Gasto de Capital,1972,2024,11-06-2025,Presupuesto público,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/presupuesto-publico,Anual
+PD04748FA,Presupuesto Público 1970 - 2012 - Servicio de la Deuda,1974,2024,11-06-2025,Presupuesto público,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/presupuesto-publico,Anual
+PD04749FA,Presupuesto Público 1970 - 2012 - Total,1970,2024,11-06-2025,Presupuesto público,https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/presupuesto-publico,Anual
+PN02499AQ,Agropecuario,T1-1981,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02500AQ,Pesca,T1-1981,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02501AQ,Minería e Hidrocarburos,T1-1981,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02502AQ,Manufactura,T1-1981,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02503AQ,Electricidad y Agua,T1-1981,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02504AQ,Construcción,T1-1981,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02505AQ,Comercio,T1-1981,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02506AQ,Servicios,T1-1981,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02507AQ,PBI Global,T1-1980,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN37680AQ,Sectores primarios,T1-1995,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN37681AQ,Sectores no primarios,T1-1995,T1-2025,18-07-2025,Producto bruto interno (variación porcentual interanual),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-variaciones-porcentuales,Trimestral
+PN02508AQ,Agropecuario,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN02509AQ,Pesca,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN02510AQ,Minería e Hidrocarburos,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN02511AQ,Manufactura,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN02512AQ,Electricidad y Agua,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN02513AQ,Construcción,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN02514AQ,Comercio,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN02515AQ,Servicios,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN02516AQ,PBI Global,T1-1980,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN37682AQ,Sectores primarios,T1-1994,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN37683AQ,Sectores no primarios,T1-1994,T1-2025,18-07-2025,Producto bruto interno (índice 2007 = 100),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/producto-bruto-interno-indice-2007-100,Trimestral
+PN37684AQ,Agropecuario,T1-1980,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37685AQ,Pesca,T1-1980,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37686AQ,Minería e Hidrocarburos,T1-1980,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37687AQ,Manufactura,T1-1980,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37688AQ,Electricidad y Agua,T1-1980,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37689AQ,Construcción,T1-1980,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37690AQ,Comercio,T1-1980,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37691AQ,Servicios,T1-1980,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37692AQ,PBI Global,T1-1979,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37693AQ,Sectores primarios,T1-1994,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
+PN37694AQ,Sectores no primarios,T1-1994,T1-2025,18-07-2025,Producto bruto interno (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/trimestrales/pbi-millones-de-soles-constantes-de-2007,Trimestral
 PM04986AA,Agropecuario,1922,2024,18-07-2025,Producto bruto interno por sectores productivos (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/producto-bruto-interno-por-sectores-productivos-mill-soles-del-2007,Anual
 PM04987AA,Agropecuario - Agrícola,1994,2024,18-07-2025,Producto bruto interno por sectores productivos (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/producto-bruto-interno-por-sectores-productivos-mill-soles-del-2007,Anual
 PM04988AA,Agropecuario - Pecuario,1994,2024,18-07-2025,Producto bruto interno por sectores productivos (millones S/ de 2007),https://estadisticas.bcrp.gob.pe/estadisticas/series/anuales/producto-bruto-interno-por-sectores-productivos-mill-soles-del-2007,Anual
