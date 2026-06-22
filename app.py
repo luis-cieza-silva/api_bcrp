@@ -14,7 +14,7 @@ st.set_page_config(page_title="BCRP - API", page_icon="📊", layout="wide")
 RUTA_CSV_LINKS = "master_categorias_urls.csv"
 RUTA_METADATA = "metadata.csv"
 
-# --- Cache lectura metadata ---
+# --- Cache lectura metadata ---x
 @st.cache_data
 def cargar_series(ruta: str) -> pd.DataFrame:
     return pd.read_csv(ruta)
@@ -245,7 +245,7 @@ if disparar:
     c_tabla, c_graf = st.columns([1, 1])
     with c_tabla:
         st.markdown("### 📊 Datos")
-        st.dataframe(df, use_container_width=True, height=420)
+        st.dataframe(df, width='stretch', height=420)
     with c_graf:
         st.markdown("### 📈 Gráfico")
         series_cols = [c for c in df.columns if c != "Periodo"]
@@ -253,7 +253,7 @@ if disparar:
             try:
                 st.line_chart(
                     df.set_index("Periodo")[series_cols],
-                    use_container_width=True,
+                    width='stretch',
                     height=420,
                 )
             except Exception:
